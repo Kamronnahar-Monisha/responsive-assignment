@@ -1,11 +1,334 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Penguin Fashion</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Penguin Fashion</title>
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+ <link rel="stylesheet" href="css-2/fontawesome.min.css">
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+              <!--header section start-->
+  <header class="container  pt-3">
+    <nav class="navbar  navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-logo" href="#"><img style="width: 250px;" src="logo/Logo.png"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainnav"
+          aria-controls="mainnav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="mainnav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item ms-md-3">
+              <a class="nav-link fw-bold" href="#showcase">Home</a>
+            </li>
+            <li class="nav-item ms-md-3">
+              <a class="nav-link fw-bold" href="#product">Product</a>
+            </li>
+            <li class="nav-item ms-md-3">
+              <a class="nav-link fw-bold" href="#about">About us</a>
+            </li>
+            <li class="nav-item ms-md-3" style="font-weight: 700;">
+              <a class="nav-link fw-bold " href="#contact">Contact us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!--header section end-->
+
+  <section class="container">
+      <!--stage section start-->
+
+    <section class="container mb-5" id="stage">
+      <div class="stage-bottom mt-5">
+        <div class="row">
+
+            <div class="col-md-7">
+                <div class="bottom-header-right">
+                <img src="images/mainshoes.png">
+                </div>
+            </div>
+
+
+          <div class="col-md-5 d-flex align-items-center justify-content-center">
+            <div class="stage-bottom-left">
+              <h1 class="text-uppercase" style="font-size: 60px; color: #FA804C;">Nike React</h1>
+              <h1 class="text-uppercase" style="font-size: 60px;">Infinity Run 2</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus beatae ad doloribus deserunt!</p>
+              <button type="button" class="btn text-uppercase fw-bold"
+                style=" width: 160px; height: 60px; background:  #3D4FF3; color: #ffffff; border-radius: 10px;"> <i class="fas fa-shopping-cart"></i> Buy Now </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--stage section end-->
+
+    <section class="mt-5">
+      <h1 style=" margin: 50px 0px;" class="text-uppercase">CASUAL SHOES</h1>
+
+      <div class="row row-cols-1 row-cols-md-3 g-5">
+
+        <div class="col">
+          <div class="card h-90 shadow" style="background: #ffffff; border-radius: 10px;">
+            <img src="images/img1.png" class="card-img-top"
+              style="background-color: #f5f5f5; border-radius: 20px; border: 15px solid #ffffff;">
+            <div class="card-body">
+              <h5 class="card-title">Nike Shoe</h5>
+              <p style="font-size: 13px;" class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptas, corporis.</p>
+            </div>
+            <div class="card-footer">
+              <div class="row">
+                <div class="col-6">
+                  <h5 style="color: #FA804C; font-size: 40px; width: 100%;" class="fw-bolder pt-2">$234</h5>
+                </div>
+                <div class="col-6 d-flex justify-content-end align-items-center">
+                  <button type="button" class="btn text-uppercase fw-bold"
+                    style=" width: 100%; height: 50px; background:  #3D4FF3; font-size: 13px; color: #ffffff; border-radius: 10px;">
+                    <i class="fas fa-shopping-cart"></i> Buy Now </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-90 shadow" style="background: #ffffff; border-radius: 10px;">
+            <img src="images/img2.png" class="card-img-top"
+              style="background-color: #f5f5f5; border-radius: 20px; border: 15px solid #ffffff;">
+            <div class="card-body">
+              <h5 class="card-title">Sneakers Skate Shoe </h5>
+              <p style="font-size: 13px;" class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptas, corporis.</p>
+            </div>
+            <div class="card-footer">
+              <div class="row">
+                <div class="col-6">
+                  <h5 style="color: #FA804C; font-size: 40px; width: 100%;" class="fw-bolder pt-2">$234</h5>
+                </div>
+                <div class="col-6 d-flex justify-content-end align-items-center">
+                  <button type="button" class="btn text-uppercase fw-bold"
+                    style=" width: 100%; height: 50px; background:  #3D4FF3; font-size: 13px; color: #ffffff; border-radius: 10px;">
+                    <i class="fas fa-shopping-cart"></i> Buy Now </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-90 shadow" style="background: #ffffff; border-radius: 10px;">
+            <img src="images/img3.png" class="card-img-top"
+              style="background-color: #f5f5f5; border-radius: 20px; border: 15px solid #ffffff;">
+            <div class="card-body">
+              <h5 class="card-title">Sneakers Basketball shoe</h5>
+              <p style="font-size: 13px;" class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptas, corporis.</p>
+            </div>
+            <div class="card-footer">
+              <div class="row">
+                <div class="col-6">
+                  <h5 style="color: #FA804C; font-size: 40px; width: 100%;" class="fw-bolder pt-2">$234</h5>
+                </div>
+                <div class="col-6 d-flex justify-content-end align-items-center">
+                  <button type="button" class="btn text-uppercase fw-bold"
+                    style=" width: 100%; height: 50px; background:  #3D4FF3; font-size: 13px; color: #ffffff; border-radius: 10px;">
+                    <i class="fas fa-shopping-cart"></i> Buy Now </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+    <section class="mt-5">
+      <h1 style=" margin: 50px 0px;" class="text-uppercase">Formal shoes</h1>
+
+      <div class="row row-cols-1 row-cols-md-3 g-5">
+
+        <div class="col">
+          <div class="card h-90 shadow" style="background: #ffffff; border-radius: 10px;">
+            <img src="images/img4.png" class="card-img-top"
+              style="background-color: #f5f5f5; border-radius: 20px; border: 15px solid #ffffff;">
+            <div class="card-body">
+              <h5 class="card-title">Prestige High-Cut Leather</h5>
+              <p style="font-size: 13px;" class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptas, corporis.</p>
+            </div>
+            <div class="card-footer">
+              <div class="row">
+                <div class="col-6">
+                  <h5 style="color: #FA804C; font-size: 40px; width: 100%;" class="fw-bolder pt-2">$234</h5>
+                </div>
+                <div class="col-6 d-flex justify-content-end align-items-center">
+                  <button type="button" class="btn text-uppercase fw-bold"
+                    style=" width: 100%; height: 50px; background:  #3D4FF3; font-size: 13px; color: #ffffff; border-radius: 10px;">
+                    <i class="fas fa-shopping-cart"></i> Buy Now </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-90 shadow" style="background: #ffffff; border-radius: 10px;">
+            <img src="images/img5.png" class="card-img-top"
+              style="background-color: #f5f5f5; border-radius: 20px; border: 15px solid #ffffff;">
+            <div class="card-body">
+              <h5 class="card-title">Slip-On Formal Shoe</h5>
+              <p style="font-size: 13px;" class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptas, corporis.</p>
+            </div>
+            <div class="card-footer">
+              <div class="row">
+                <div class="col-6">
+                  <h5 style="color: #FA804C; font-size: 40px; width: 100%;" class="fw-bolder pt-2">$234</h5>
+                </div>
+                <div class="col-6 d-flex justify-content-end align-items-center">
+                  <button type="button" class="btn text-uppercase fw-bold"
+                    style=" width: 100%; height: 50px; background:  #3D4FF3; font-size: 13px; color: #ffffff; border-radius: 10px;">
+                    <i class="fas fa-shopping-cart"></i> Buy Now </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-90 shadow" style="background: #ffffff; border-radius: 10px;">
+            <img src="images/img6.png" class="card-img-top"
+              style="background-color: #f5f5f5; border-radius: 20px; border: 15px solid #ffffff;">
+            <div class="card-body">
+              <h5 class="card-title">Slip-On Formal Shoe</h5>
+              <p style="font-size: 13px;" class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptas, corporis.</p>
+            </div>
+            <div class="card-footer">
+              <div class="row">
+                <div class="col-6">
+                  <h5 style="color: #FA804C; font-size: 40px; width: 100%;" class="fw-bolder pt-2">$234</h5>
+                </div>
+                <div class="col-6 d-flex justify-content-end align-items-center">
+                  <button type="button" class="btn text-uppercase fw-bold"
+                    style=" width: 100%; height: 50px; background:  #3D4FF3; font-size: 13px; color: #ffffff; border-radius: 10px;">
+                    <i class="fas fa-shopping-cart"></i> Buy Now </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+
+
+
+    <section class="mt-5">
+      <div class="row">
+        <div class="col-md-6 p-5" style="float: right;">
+
+          <ul class="list-group">
+
+            <li class="list-group-item border-0">
+              <div class="card mb-0 cards-list bg-light shadow" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-3">
+                    <img class="" style="width: 80px;" src="logo/home.png" alt="...">
+                  </div>
+                  <div class="col-md-9">
+                    <div class="card-body">
+                      <h5 class="card-title">Find the Perfect Fit</h5>
+                      <p class="card-text">Everybody is different, which is why we
+                        offer styles for every body.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li class="list-group-item border-0">
+              <div class="card mb-0 cards-list bg-light shadow" style="max-width: 540px;">
+                <div class="row g-0 d-flex align-items-center justify-content-center">
+                  <div class="col-md-3">
+                    <img style="width: 80px;" src="logo/box.png" alt="...">
+                  </div>
+                  <div class="col-md-9">
+                    <div class="card-body">
+                      <h5 class="card-title">Free Exchanges</h5>
+                      <p class="card-text">One of the many reasons you can shop
+                        with peace of mind.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li class="list-group-item border-0">
+              <div class="card mb-0 cards-list bg-light shadow" style="max-width: 540px;">
+                <div class="row g-0 d-flex align-items-center justify-content-center">
+                  <div class="col-md-3">
+                    <img style="width: 80px;" src="logo/hph.png" alt="...">
+                  </div>
+                  <div class="col-md-9">
+                    <div class="card-body">
+                      <h5 class="card-title">Contact Our Seller</h5>
+                      <p class="card-text">They are here to help you. That's quite
+                        literally what we pay them for.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+          </ul>
+          
+        </div>
+
+        <div class="col-md-6 overflow-hidden  ">
+          <div style=" margin-top: 80px;" class="first-section-right ">
+            <img class="" src="logo/XMLID 1.png" alt="">
+          </div>
+        </div>
+
+      </div>
+    </section>
+</section>
+
+  <footer class="container">
+    <h3>Follow Me On</h3>
+    <div id="social">
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-linkedin-in"></i>
+        <i class="fab fa-github"></i>
+    </div>
+</div>
+  </footer>
+
+
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 </body>
+
 </html>
